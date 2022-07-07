@@ -1,0 +1,49 @@
+@import "gridYMedia";
+@import "home";
+@import "productos";
+@import "quienesSomos";
+@import "hotsale";
+@import "tarjetas";
+@import "redesSociales";
+@import "contactanos";
+$colorH6:aliceblue;
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6{color:$colorH6;}
+h1 {font-family: 'Caveat', cursive;
+}
+
+header div{
+    display: flex;
+    grid-area: header;
+    text-align: center;
+justify-content: space-between;
+align-items: center;
+background-image: url(../img/fondoheader.png) ;
+}
+
+
+main {
+    background-image: url(../img/armario3\ -\ copia.jpg);
+    width: 100%;     
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+footer { background-color: #001850;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 120px;
+grid-area: footer;
+}
+
+

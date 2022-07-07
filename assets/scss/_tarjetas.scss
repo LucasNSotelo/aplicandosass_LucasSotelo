@@ -1,0 +1,17 @@
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:aliceblue;
+    margin: 50px;
+    .tarjeta__img{
+        height: 300px;
+        width: 200px;
+    }
+}
+
